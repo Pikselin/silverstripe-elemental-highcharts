@@ -12,7 +12,7 @@ namespace Pikselin\Highcharts\Libraries {
         public function Libraries($SiteConfig = false, $Extra = false) {
             $HighchartsJSRequire = [];
             // not currently used, here as a future placeholder
-            //$HighchartsJSRequire[] = ['Pikselin/silverstripe-elemental-highcharts:client/js/HighchartElemental.js'];
+            //$HighchartsJSRequire[] = ['pikselin/silverstripe-elemental-highcharts:client/js/HighchartElemental.js'];
 
             $HighchartAdditionalLibs = false;
             
@@ -104,7 +104,7 @@ namespace Pikselin\Highcharts\Libraries {
             foreach ($HighchartsJSRequire as $HcJS) {
                 Requirements::javascript(implode('/', $HcJS), ['defer' => true]);
             }
-            Requirements::css('Pikselin/silverstripe-elemental-highcharts:client/css/HighchartElemental.css');
+            Requirements::css('pikselin/silverstripe-elemental-highcharts:client/css/HighchartElemental.css');
         }
 
     }
