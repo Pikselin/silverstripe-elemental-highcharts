@@ -1,0 +1,13 @@
+---
+Name: HighchartsLibraryExtensions
+---
+PageController:
+  extensions:
+    - Pikselin\Highcharts\Extensions\HighchartsLibraryControllerExtension
+---
+Name: HighchartConfigExtensionConfig
+before: '*'
+---
+SilverStripe\SiteConfig\SiteConfig:
+  extensions:
+    - Pikselin\Elemental\Blocks\HighchartConfigExtension

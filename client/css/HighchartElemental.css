@@ -1,0 +1,56 @@
+/**
+ * Override these styles in your own Stylesheet.
+ **/
+
+/**
+.elemental-highchart {}
+.elemental-highchart .highchart-container{
+    background-color: #E3ECF0;
+    padding: 15px;
+}
+**/
+
+/**
+ * Data table examples
+ **/
+
+/**
+.elemental-highchart .highcharts-data-table {}
+.elemental-highchart .highcharts-data-table .highcharts-table-caption {
+    display: none;
+}
+.elemental-highchart .highcharts-data-table thead {
+    background-color: black;
+    color: white;
+}
+.elemental-highchart .highcharts-data-table thead th{}
+.elemental-highchart .highcharts-data-table tbody{
+    background-color: white;
+    color: #333333;    
+}
+.elemental-highchart .highcharts-data-table tbody td{}
+.elemental-highchart .highcharts-data-table td.text{}
+.elemental-highchart .highcharts-data-table td.number{}
+.elemental-highchart .highcharts-data-table td.empty{}
+
+.elemental-highchart .highchart-container .chart-caption{
+    padding-top: 15px;
+}
+**/
+
+/**
+ * Chart controls
+ **/
+/**
+.highchart-container .chart-controls{
+    display: block;
+    text-align: right;
+}
+.highchart-container .chart-controls a{
+    margin-right: 15px;
+}
+
+.highchart-container .chart-controls a:last-child{
+    margin-right: 0px;
+}
+**/
