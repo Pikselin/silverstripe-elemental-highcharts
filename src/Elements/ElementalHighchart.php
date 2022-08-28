@@ -147,6 +147,7 @@ use UncleCheese\DisplayLogic\Forms\Wrapper;
                         'credits' => ['enabled' => false],
                         'title' => ['text' => $this->ChartTitle],
                         'tooltip' => [
+                            'useHTML' => true,
                             'shared' => true,
                             //'pointFormat' => '<b>{point.series.name} <b><br>{point.x:,.0f}  {point.y:,.0f}',
                             'valuePrefix' => ($this->ValuePrefix ? $this->ValuePrefix : ''),
