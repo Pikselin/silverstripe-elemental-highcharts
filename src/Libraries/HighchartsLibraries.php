@@ -105,6 +105,7 @@ namespace Pikselin\Highcharts\Libraries {
                 Requirements::javascript(implode('/', $HcJS), ['defer' => true]);
             }
             Requirements::css('pikselin/silverstripe-elemental-highcharts:client/css/HighchartElemental.css');
+            //Requirements::css(self::$HighchartsURLBase . '/css/highcharts.css');
         }
 
     }

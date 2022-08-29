@@ -143,11 +143,12 @@ use UncleCheese\DisplayLogic\Forms\Wrapper;
          */
         public function chartConfig() {
             $chart = (object) [
-                        'chart' => ['type' => $this->DefaultSeries, 'animation' => true],
+                        'chart' => ['type' => $this->DefaultSeries, 'animation' => true,'styledMode' => false],
                         'credits' => ['enabled' => false],
                         'title' => ['text' => $this->ChartTitle],
                         'tooltip' => [
-                            'useHTML' => true,
+                            'outside' => true,
+                            //'useHTML' => true,
                             'shared' => true,
                             //'pointFormat' => '<b>{point.series.name} <b><br>{point.x:,.0f}  {point.y:,.0f}',
                             'valuePrefix' => ($this->ValuePrefix ? $this->ValuePrefix : ''),
