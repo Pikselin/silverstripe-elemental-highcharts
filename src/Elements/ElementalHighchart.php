@@ -148,6 +148,7 @@ use UncleCheese\DisplayLogic\Forms\Wrapper;
                         'title' => ['text' => $this->ChartTitle],
                         'tooltip' => [
                             'outside' => true,
+                            'style' => ['zIndex' => 9999],
                             //'useHTML' => true,
                             'shared' => true,
                             //'pointFormat' => '<b>{point.series.name} <b><br>{point.x:,.0f}  {point.y:,.0f}',
