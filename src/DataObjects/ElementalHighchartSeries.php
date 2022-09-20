@@ -55,6 +55,8 @@ use SilverStripe\Security\Security;
             'VisibleNice' => 'Visible'
             
         ];
+        
+        private static $default_sort = 'SeriesOrder ASC';
 
         /**
          * Helper fields
