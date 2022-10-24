@@ -34,7 +34,6 @@
                                         outside: this.fullscreen.isOpen
                                     }
                                 });
-                                console.log('setting');
                                 this.fullscreen.toggle();
                             }                                                
                         }

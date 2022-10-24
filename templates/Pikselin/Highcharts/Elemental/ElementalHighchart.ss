@@ -28,8 +28,8 @@
                     <% end_if %>
                 </div>
                 <% end_if %>
-                <% include includes/chartJS %>
             </figure>
+            <% include includes/chartJS %>
         </div>
     </div>
     <% end_if %>
